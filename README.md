@@ -17,3 +17,5 @@ gcc NumberGuessingGame.c -o NumberGuessingGame
 
 
 <b> Here is the example of the Output: </b>
+
+![](Output/Example.png)

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include <time.h>
+#include <time.h>
 int main()
 {
     printf("Enter the range within which the random number have to be generated\n");
@@ -11,6 +11,8 @@ int main()
 
     printf("\nEnter the upper range : ");
     scanf("%d", &upper);
+
+    srand(time(0));
 
     int num = (rand() % (upper - lower + 1)) + lower;
 

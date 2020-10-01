@@ -5,17 +5,17 @@ This program makes use of basic C conditional statements like ```if-else``` and 
 
 The user will be asked to enter the range of the numbers from which the random number have to be generated and then he/she will guess the number. At last, the program will display how many tries are taken by the user to guess that random number.
 
-** To compile a C program: **
+**To compile a C program:**
 ```c
 gcc NumberGuessingGame.c -o NumberGuessingGame
 ```
 
-**To execute the program: **
+**To execute the program:**
 ```c
 ./NumberGuessingGame
 ```
 
 
-** Here is the example of the Output: **
+**Here is the example of the Output:**
 
 ![](Output/Example.png)
